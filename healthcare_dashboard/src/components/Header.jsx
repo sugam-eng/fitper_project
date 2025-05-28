@@ -1,6 +1,9 @@
 // src/components/Header.jsx
 import React from 'react';
 import './Header.css';
+import bell from "./src/assets/bell.png"
+import baby from "./src/assets/baby.png"
+import plus from  "./src/assets/plus.jpg"
 
 const Header = () => {
   return (
@@ -10,7 +13,7 @@ const Header = () => {
       <div className='search_bar'>
         <span className="search_icon">
           <img
-            src="./src/assets/bell.png"
+            src={bell}
             alt="bell"
             style={{
               height: '20px',
@@ -23,13 +26,13 @@ const Header = () => {
       </div>
 
       <div className="avatar">
-        <div className='avatarplus'><img src="./src/assets/baby.png" alt="baby" style={{
+        <div className='avatarplus'><img src={baby} alt="baby" style={{
           height: '65px',
           width: 'auto',
           objectFit: 'contain',
         }} />
           <button style={{ border: 'none' }}>
-            <img src="./src/assets/plus.jpg" alt="plus" style={{
+            <img src={plus} alt="plus" style={{
               height: '35px',
               width: 'auto',
               objectFit: 'contain',
