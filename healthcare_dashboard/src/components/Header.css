@@ -40,10 +40,10 @@
 
 .avatar {
   background: #f7f9fc;
-  width: 739px;
+  width: 785px;
   display: flex;
-  justify-content: flex-end;
-  margin-right: 50px;
+  
+  /* margin-right: 50px; */
 
 }
 
@@ -54,6 +54,7 @@
   /* space between avatar and button */
   justify-content: flex-end;
   margin-top: 30px;
+  margin-left: 300px;
 }
 
 .search_icon {
