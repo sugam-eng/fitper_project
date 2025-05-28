@@ -1,9 +1,10 @@
 // src/components/Header.jsx
 import React from 'react';
 import './Header.css';
-import bell from "./src/assets/bell.png"
-import baby from "./src/assets/baby.png"
-import plus from  "./src/assets/plus.jpg"
+import bell from "../assets/bell.png";
+import baby from "../assets/baby.png";
+import plus from "../assets/plus.jpg";
+
 
 const Header = () => {
   return (

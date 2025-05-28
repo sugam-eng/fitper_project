@@ -1,7 +1,10 @@
 import React from 'react'
 import './AnatomySection.css'
-import search from '../../assets/icons/search.png';
-import body from "./src/assets/body.png"
+import search from "../../assets/icons/search.png";
+import body from "../../assets/body.png";
+
+
+
 
 function AnatomySection() {
   return (
