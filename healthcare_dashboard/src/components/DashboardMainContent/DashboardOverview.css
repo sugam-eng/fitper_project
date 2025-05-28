@@ -1,0 +1,25 @@
+.healthstatuscards {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.dashboardoverview {
+   display: flex;
+   flex-direction: row;
+   /* This puts children side by side */
+   gap: 60px;
+   /* Optional spacing between them */
+}
+
+.dashboard {
+   color: rgb(10, 10, 123);
+   margin-left: 20px;
+   /* margin-top: 10px; */
+}
+
+.upper {
+   border: none;
+   display: flex;
+
+}

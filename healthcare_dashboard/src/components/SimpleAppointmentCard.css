@@ -1,0 +1,22 @@
+.appointment-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    background: #dee2f8;
+    width: 200px;
+    padding-left: 30px;
+}
+
+.appointment-title {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.appointment-time {
+    padding: 0px 0px 15px 0px;
+}
+
+.appointment-title {
+    padding: 15px 0px 0px 0px;
+}

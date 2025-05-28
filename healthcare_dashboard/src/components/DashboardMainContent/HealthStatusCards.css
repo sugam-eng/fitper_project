@@ -1,0 +1,36 @@
+.health_status{
+ 
+    width: 160px;
+    background: #f7f9fc;
+   
+   padding-left: 10px;
+   padding-bottom: 20px;
+   border-radius: 20px;
+   margin-top: 10px;
+    
+}
+.fidiv{
+    display: flex;
+    
+    align-items: center;
+    gap: 10px;
+  
+    padding-top: 10px;
+    
+}
+.progress-bar-container {
+  width: 85%;
+  height: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 8px;
+   border-radius: 10px;
+    
+}
+.progress-bar-fill {
+  height: 100%;
+ 
+  border-radius: 10px; 
+ 
+}

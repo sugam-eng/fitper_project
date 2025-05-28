@@ -1,0 +1,59 @@
+.activity-feed {
+  padding: 20px;
+  font-family: sans-serif;
+  background: #f6faff;
+  margin-right: 30px;
+  border-radius: 27px;
+}
+
+.activity-bars {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.activity-bar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sugam {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.activity-bar {
+  width: 5px;
+  border-radius: 4px;
+}
+
+.activity-day {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.sug{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  
+}
+.third{
+  display: flex;
+  flex-direction: column;
+}
+
+.second{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.fourth{
+  display: flex;
+  flex-direction: column;
+}

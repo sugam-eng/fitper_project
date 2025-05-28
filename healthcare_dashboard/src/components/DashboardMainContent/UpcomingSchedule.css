@@ -1,0 +1,21 @@
+.firstschedule{
+display: flex;
+gap: 30px;
+margin-left: 40px;
+border-radius: 50px;
+margin-bottom: 20px;
+}
+
+.lastschedule{
+    display: flex;
+}
+/* .upcomingschedule{
+   color: white;
+    
+} */
+.section-title{
+margin:13px 0px 10px 40px;
+color: rgb(18, 18, 91);
+font-size: 22px;
+
+}
