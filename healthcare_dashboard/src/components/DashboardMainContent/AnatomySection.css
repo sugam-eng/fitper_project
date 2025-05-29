@@ -1,22 +1,27 @@
 .anatomysection {
   display: flex;
   justify-content: center;
-  /* horizontal center */
   align-items: center;
-  /* vertical center */
   height: 350px;
-  /* required for vertical centering */
   background-color: #f7f9fc;
   width: 250px;
-  margin-left: 25px;
+  
   border-radius: 20px;
   position: relative;
-  padding-top: 10px;
-  margin-top: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-
+  padding: 10px 20px;
+  box-sizing: border-box;
+  position: relative;
 }
+
+@media (max-width: 900px) {
+  .anatomysection {
+    height: auto;
+    flex-direction: column;
+    padding: 15px;
+    margin: 10px;
+}
+}
+
 
 .overlay-text {
   position: absolute;
@@ -27,7 +32,6 @@
   color: white;
   background-color: blue;
   padding: 5px 12px 5px 8px;
-  /* More right padding */
   border-radius: 4px;
   margin-top: 64px;
   margin-left: 10px;

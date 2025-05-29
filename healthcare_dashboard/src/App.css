@@ -9,17 +9,14 @@
 .calendar-upcoming-container {
     display: flex;
     flex-direction: column;
-
     width: 48%;
     background-color: #f7f9fc;
 }
 
 .root-container {
     display: flex;
-
     width: 100%;
     border-radius: 20px;
-
 }
 
 .sidebar-container {
@@ -28,7 +25,6 @@
 }
 
 .app-container {
-
     max-height: 100vh;
     overflow-y: auto;
     margin: 10px;
@@ -37,7 +33,7 @@
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.389);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1305px) {
     .root-container {
         flex-wrap: wrap;
         flex-direction: column;
@@ -45,12 +41,9 @@
 
     .sidebar-container {
         width: 100%;
-        order: 1;
+      height: auto;
         display: flex;
-
         justify-content: center;
-        height: 360px;
-        flex-wrap: wrap;
     }
 
     .dashboard-activity-container {

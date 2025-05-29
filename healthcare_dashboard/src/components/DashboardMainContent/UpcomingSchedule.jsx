@@ -24,9 +24,6 @@ function UpcomingSchedule() {
 
     </div>
 
-
-
-
   )
 }
 

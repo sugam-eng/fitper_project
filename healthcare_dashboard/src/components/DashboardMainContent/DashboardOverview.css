@@ -6,16 +6,20 @@
 
 .dashboardoverview {
    display: flex;
-   flex-direction: row;
-   /* This puts children side by side */
    gap: 60px;
-   /* Optional spacing between them */
+   width: 90%;
 }
 
+@media (max-width: 1308px) {
+ .dashboardoverview {
+   gap: 5px;
+   margin: 0 auto;
+   justify-content: center;
+}
+}
 .dashboard {
    color: rgb(10, 10, 123);
    margin-left: 20px;
-   /* margin-top: 10px; */
 }
 
 .upper {

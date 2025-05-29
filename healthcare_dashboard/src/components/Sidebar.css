@@ -1,10 +1,8 @@
 .sidebar {
   display: flex;
   flex-direction: column;
-  width: 287px;
   background: #f7f9fc;
   align-items: center;
-
 }
 
 .sidebar-link {
@@ -25,40 +23,18 @@
 
 .sidebar-bottom {
   padding-top: 80px;
-  border-top: 1px solid #ddd;
   margin-right: 40px;
 }
 
 @media screen and (max-width:600px) {
 
-  .sidebar-bottom {
-    margin-top: 2px;
-    padding-top: 2px;
-
-  }
-
-  .sidebar {
-    display: flex;
-
-    width: 25%;
-    background: #f7f9fc;
-    align-items: center;
-    flex-wrap: wrap;
-    height: 350px;
-
-    .list {
-      padding: 3px;
-    }
+  .list {
+    padding: 3px;
   }
 }
 
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background: #f7f9fc;
-  width: 287px;
-}
+
+
 
 .list {
   list-style: none;
@@ -72,4 +48,52 @@
   gap: 5px;
   text-decoration: none;
   color: #333;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  /* default vertical layout */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* Responsive behavior for smaller screens */
+@media (max-width: 1305px) {
+  .sidebar ul {
+    flex-direction: row;
+    /* switch to horizontal layout */
+    flex-wrap: wrap;
+    /* allow wrapping to next line */
+    gap: 0px;
+    /* spacing between wrapped items */
+    justify-content: center;
+  }
+
+  .sidebar li {
+    flex: 1 1 auto;
+    /* allow items to shrink and grow */
+    min-width: 100px;
+    /* optional: maintain readable width */
+    text-align: center;
+  }
+
+  .sidebar-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .sidebar-bottom {
+    margin-top: 0px;
+    padding-top: 0px;
+
+  }
+}
+
+.sidebar-bottom {
+  margin-top: 30px;
+  margin-left: 0 auto;
 }

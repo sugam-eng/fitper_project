@@ -38,7 +38,7 @@ const Sidebar = () => {
         })}
       </ul>
 
-      <div className="sidebar-bottom" style={{ marginTop: '30px' }}>
+      <div className="sidebar-bottom">
         {sidebarLinks
           .filter((link) => link.name === 'Settings')
           .map((link, idx) => (

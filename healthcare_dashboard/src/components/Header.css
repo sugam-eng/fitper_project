@@ -13,11 +13,18 @@
   justify-content: center;
   height: 100%;
 }
+@media (max-width:568px){
+  .name h1{
+    font-size: 20px;
+    padding: 10px;
+  }
+}
 
 .search_bar {
   background: white;
-  width: 800px;
+  width: 50%;
   position: relative;
+ 
 }
 
 .search {
@@ -35,15 +42,14 @@
 .name {
   font-size: small;
   background: #f7f9fc;
-  width: 376px;
+  width: 21%;
+ 
 }
 
 .avatar {
   background: #f7f9fc;
-  width: 785px;
+  width: 50%;
   display: flex;
-  
-  /* margin-right: 50px; */
 
 }
 
@@ -54,13 +60,13 @@
   /* space between avatar and button */
   justify-content: flex-end;
   margin-top: 30px;
-  margin-left: 300px;
+  margin-left: 35%;
 }
 
 .search_icon {
   position: absolute;
-  left: 500px;
-  top: 50%;
+  left: 80%;
+  top: 52%;
   transform: translateY(-50%);
   pointer-events: none;
 }
