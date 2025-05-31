@@ -34,10 +34,24 @@
 
 .calendar-grid {
   display: grid;
-  grid-template-columns: repeat(7, 1fr);
+  grid-template-columns: repeat(7, minmax(40px, 1fr));
+  gap: 8px;
   text-align: center;
-  gap: 16px;
+  padding: 8px;
+}
 
+@media (max-width: 768px) {
+  .calendar-grid {
+    gap: 4px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .calendar-grid {
+    grid-template-columns: repeat(7, minmax(30px, 1fr));
+    font-size: 10px;
+  }
 }
 
 .calendar-day {
@@ -100,3 +114,4 @@
   font-weight: 200;
 
 }
+
