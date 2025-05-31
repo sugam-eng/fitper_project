@@ -6,6 +6,14 @@
   border-radius: 27px;
 }
 
+@media (max-width:502px){
+  .activity-feed{
+    margin-right: auto;
+    padding-left: 0;
+    
+  }
+}
+
 .activity-bars {
   display: flex;
   justify-content: space-between;

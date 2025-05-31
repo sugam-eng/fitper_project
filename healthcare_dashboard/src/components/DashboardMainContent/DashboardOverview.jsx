@@ -33,7 +33,7 @@ function DashboardOverview() {
           <HealthStatusCards emoji='🦴' name='Bone' color='rgba(240, 114, 64, 0.99)' value={75} />
         </div>
       </div>
-      <h6 style={{ color: ' #1f1f47', marginLeft: '500px' }}>Details-&rarr;</h6>
+      <h6 style={{ color: ' #1f1f47', marginLeft: '80%' }}>Details-&rarr;</h6>
 
 
     </>

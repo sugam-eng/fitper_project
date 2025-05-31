@@ -13,9 +13,9 @@
   justify-content: center;
   height: 100%;
 }
-@media (max-width:568px){
+@media (max-width:555px){
   .name h1{
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px;
   }
 }

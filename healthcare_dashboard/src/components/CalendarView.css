@@ -9,6 +9,11 @@
   padding: 20px 35px;
   margin-left: 40px;
 }
+@media (max-width:625px){
+  .dentistcard{
+    margin-left: 2px;
+  }
+}
 
 .appointmentcard {
 
