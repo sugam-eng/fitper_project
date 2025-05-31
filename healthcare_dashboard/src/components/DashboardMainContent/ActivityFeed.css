@@ -11,6 +11,15 @@
     margin-right: auto;
     padding-left: 0;
     
+  .activity-bars{
+    gap: 2px;
+  }
+  .sugam{
+    gap:4px
+  }
+  .sug{
+    gap:4px
+  }
   }
 }
 
